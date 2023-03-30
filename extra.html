@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image and Div</title>
+    <style>
+        .demo{
+            text-align: center;
+        }
+
+        #image{
+            text-align: right;
+        }
+
+        img{
+            border: 5px solid red;
+            border-radius: 10px;
+        }
+        table{
+            width: 100%;
+        }
+
+        table, th, td{
+            border: 2px solid red;
+            border-collapse: collapse;
+            padding: 10px;
+            
+        }
+        #one{
+            background-color: gray;
+            color: white;
+            font-size: 18px;
+        }
+
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo">
+        <img src="./pix2.png" alt="My Picture" width="200px" height="230px">
+        <h3>Ibrahim Bakori</h3>
+        <p>Software Developer | Freelancer | Entreprenuer</p>
+    </div>
+    <div id="image">
+        <img src="./pix2.png" alt="My Picture" width="200px" height="230px">
+        <h3>Ibrahim Bakori</h3>
+        <p>Software Developer | Freelancer | Entreprenuer</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr id="one">
+                <th>Sno.</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Aminu Idris</td>
+                <td>08077786989</td>
+                <td>Katsina</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Abraham Joseph</td>
+                <td>08135363778</td>
+                <td>Bakori</td>
+            </tr>
+        </tbody>
+      
+    </table>
+    <br><br><br><br>
+    <table>
+        <tr>
+            <th>SNO.</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+            <th colspan="2">Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dudu Osun</td>
+            <td>10</td>
+            <td rowspan="2">50</td>
+            <td>3000</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Three Crown Milk</td>
+            <td>30</td>
+            
+            <td>1500</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+
+
+    </table>
+   
+</body>
+</html>

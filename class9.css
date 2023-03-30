@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(45deg, green, black);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 40%;
+    margin-top: 80px;
+    background-color: azure;
+    padding: 2rem;
+    text-align: center;
+    border: 5px double yellowgreen;
+    border-radius: 20px;
+}
+
+input{
+    width:100%;
+    padding: 12px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid darkgreen;
+}
+h2{
+    font-size: 28px;
+    text-align: center;
+    color: darkgreen;
+}
+
+input[type="button"]{
+    background-color: darkgreen;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.gender input[type="radio"], input[type="checkbox"]{
+   width: 20%;
+}
